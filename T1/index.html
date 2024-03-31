@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>União dos Tardígrados</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a onclick="scrollToTop()">UTU</a>
+        <input type="text" placeholder="Pesquisar" />
+        <ul>
+          <li>Blog</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+      <div id="topo">
+        <h1>União dos Tardígrados Unidos</h1>
+        <p id="Indent">
+          <i>
+            Trabalho de divulgação científica, feito pelos alunos Davi Henrique,
+            Guilherme Shun, Guilherme Uehara e Guilherme Bispo da turma 113 do
+            Curso de Desenvolvimento de Sistemas Integrado ao Ensino Médio do
+            Instituto de Ciência e Tecnologia de São Paulo.</i
+          >
+        </p>
+      </div>
+    </header>
+    <section>
+      <h1>Tardígrados: Extraterrestres?</h1>
+      <p class="sub">
+        Estudos apontam que os tardígrados podem indicar vida fora da terra, por
+        isso são incluídos em missões espaciais.
+      </p>
+      <div id="icons">
+        <span id="zap" class="icon">
+          <img
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxLjQxNDIxOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxMDAlIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cmVjdCBoZWlnaHQ9IjI0IiBpZD0iQXJ0Ym9hcmQxIiBzdHlsZT0iZmlsbDpub25lOyIgd2lkdGg9IjI0IiB4PSIwIiB5PSIwIi8+PGc+PGc+PHBhdGggZD0iTTQuMDE4LDE3LjA0OGMtMC45NiwtMS40ODQgLTEuNTE4LC0zLjI1MyAtMS41MTgsLTUuMTUxYzAsLTUuMjQzIDQuMjU3LC05LjUgOS41LC05LjVjNS4yNDMsMCA5LjUsNC4yNTcgOS41LDkuNWMwLDUuMjQzIC00LjI1Nyw5LjUgLTkuNSw5LjVjLTEuNzc3LDAgLTMuNDQsLTAuNDg5IC00Ljg2MywtMS4zMzlsLTQuNjM3LDEuNTQ1bDEuNTE4LC00LjU1NVoiIHN0eWxlPSJmaWxsOiNmM2YzZjM7Ii8+PHBhdGggZD0iTTUuNzk1LDE2LjMwNGMtMC44ODYsLTEuMjQ0IC0xLjQwNywtMi43NjUgLTEuNDA3LC00LjQwN2MwLC00LjIwMSAzLjQxMSwtNy42MTIgNy42MTIsLTcuNjEyYzQuMjAxLDAgNy42MTIsMy40MTEgNy42MTIsNy42MTJjMCw0LjIwMSAtMy40MTEsNy42MTEgLTcuNjEyLDcuNjExYy0xLjU5LDAgLTMuMDY2LC0wLjQ4OCAtNC4yODgsLTEuMzIzbC0yLjg2MiwwLjk1NGwwLjk0NSwtMi44MzVaIiBzdHlsZT0iZmlsbDojMDBhODJkOyIvPjwvZz48cGF0aCBkPSJNOS43MTQsMTMuODczYy0xLjEyNCwtMS4zNzQgLTEuODc0LC0zLjA1NiAtMi4xMDksLTQuODhjLTAuMDYzLC0wLjUwOCAwLjEwNiwtMS4wMTggMC40NjEsLTEuMzg3YzAuMzU1LC0wLjM2OSAwLjg1OCwtMC41NTggMS4zNjgsLTAuNTE1bDAuMDQ5LDAuMDA1YzAsMCAwLjU2MSwwLjE1IDAuODY4LDAuMjMzYzAuMTIyLDAuMDMzIDAuMjE5LDAuMTI0IDAuMjYsMC4yNDNjMC4xMzgsMC40MSAwLjQ2NCwxLjM3MyAwLjYxOCwxLjgyNmMwLjA1LDAuMTQ3IDAuMDA0LDAuMzEgLTAuMTE0LDAuNDFjLTAuMjMzLDAuMTk2IC0wLjYxOCwwLjUyIC0wLjg1OCwwLjcyM2MtMC4xMjksMC4xMDkgLTAuMTcsMC4yOSAtMC4xLDAuNDQzYzAuMjc5LDAuNjA4IDAuNjM1LDEuMTc2IDEuMDU3LDEuNjljMC40MzQsMC41MDIgMC45MzMsMC45NDkgMS40ODUsMS4zMjdjMC4xNCwwLjA5NSAwLjMyNSwwLjA4NSAwLjQ1NCwtMC4wMjRjMC4yNDEsLTAuMjAyIDAuNjI2LC0wLjUyNiAwLjg1OCwtMC43MjJjMC4xMTksLTAuMSAwLjI4NywtMC4xMTcgMC40MjQsLTAuMDQzYzAuNDIsMC4yMjggMS4zMTQsMC43MTIgMS42OTQsMC45MThjMC4xMTEsMC4wNiAwLjE4NSwwLjE3MiAwLjE5NiwwLjI5N2MwLjAyOSwwLjMxNyAwLjA4MywwLjg5NSAwLjA4MywwLjg5NWwtMC4wMDQsMC4wNDljLTAuMDQ0LDAuNTEgLTAuMzE1LDAuOTc0IC0wLjczOSwxLjI2MWMtMC40MjQsMC4yODggLTAuOTU1LDAuMzY4IC0xLjQ0NSwwLjIyYy0xLjc3MiwtMC41NDUgLTMuMzEzLC0xLjU4MSAtNC40NzksLTIuOTM3bC0wLjAyNywtMC4wMzJaIiBzdHlsZT0iZmlsbDojZjNmM2YzOyIvPjwvZz48L3N2Zz4="
+            alt=""
+            width="60px"
+        /></span>
+        <span class="icon" id="face"
+          ><img src="IMGS/Facebook.png" alt=""
+        /></span>
+      </div>
+
+      <hr />
+      <h2>Quem são?</h2>
+      <p>
+        Os tardígrados, do filo Tardígrada, são seres microscópicos e aquáticos,
+        com grande capacidade adaptativa e de sobrevivência. Também conhecidos
+        como ursos d’água, os tardígrados são um dos seres dos quais buscamos
+        conhecimento através de pesquisas e testes, com o objetivo de utilizar
+        ou ao menos relacionar suas capacidades à áreas como medicina, indústria
+        têxtil e viagens espaciais.
+      </p>
+      <p>
+        Os ursos d’água são parentes distantes do artrópodes, os quais
+        compartilham algumas características e processos similares aos
+        realizados pelas mais de 800 espécies de tardígrados. A relação
+        principal está na pele e nos apêndices, os quais são feitos de quitina,
+        uma substância mais rígida que a derme comum, e estão sujeitos à um
+        processo biológico chamado de muda, que refere-se à troca de um
+        exoesqueleto velho, geralmente menor, por um novo, normalmente maior.
+        Seu deslocamento se dá por uma série de pares de apêndices articulados
+        vinculados ao seu corpo, os quais possuem em sua extremidade pequenas
+        estruturas similares às garras.
+      </p>
+      <img src="IMGS/tardigrado.webp" alt="" width="750px" />
+      <h2>Somos o que Comemos.</h2>
+      <p>
+        Em geral os tardígrados são seres onívoros, algumas espécies preferem
+        mais carne e outras algas e vegetais. Os ursos d’água estão entre os
+        seres que possuem sistema digestório completo, ou seja, tem em si os
+        órgãos da boca até o anus. Estes animais fazem da alimentação uma das
+        principais formas de evolução, uma vez que através dela armazenam o
+        material genético do alimento dentro de seu corpo, assim caso seja feito
+        algum dano ao seu próprio material genético, os genes armazenados são
+        usados para reestruturá-lo, o que pode gerar mutações no animal. A dieta
+        dos tardígrados inclui: ALgas, bactérias, outros tardígrados fungos e
+        células animais.
+      </p>
+      <article>
+        <section>
+          <h2>Reprodução:</h2>
+          <p>
+            A reprodução desses seres ocorre durante a muda de exoesqueleto.
+            Quando isso ocorre, os ovos do animal são depositados no antigo
+            exoesqueleto da mãe enquanto ainda faz a troca, sendo consequência
+            da fecundação pelos gametas do macho. A forma citada é a mais comum,
+            porém existem tardígrados que são assexuados ou hermafroditas, assim
+            não são dependentes de um parceiro para multiplicar-se. Em geral as
+            colônias de tardígrados possuem milhões de “habitantes”, os quais
+            reproduzem-se e alimentam-se no local.
+          </p>
+        </section>
+        <img src="IMGS/Reprodução.webp" alt="" width="300px" />
+      </article>
+      <h2>O que o DeadPool tem a ver com isso?</h2>
+      <p>
+        O filo Tardigrada possui a fama da imortalidade, mas não bem assim. Os
+        tardígrados são seres extremófilos, ou seja, vivem e sobrevivem em
+        ambientes extremos que outros animais, plantas, bactérias, fungos e
+        vírus não sobreviveriam. Esse fato só é possível devido à uma capacidade
+        quase única dos tardígrados que é a habilidade de poder desligar
+        completamente seu metabolismo e continuarem vivos em estado de
+        hibernação. Normalmente esses animais entram no estado citado geralmente
+        quando estão desidratados, uma vez que sua vida é totalmente dependente
+        de água, ou seja quando hidratados novamente saem da hibernação, porém
+        quando ameaçados pelo ambiente podem também desligar seu metabolismo.
+      </p>
+      <h2>Animais Exploradores</h2>
+      <p>
+        Os ursos d’água são seres exploratórios, o que significa que quando
+        ocorre algum desastre, acidente, ou então em um planeta inóspito, os
+        tardígrados são os pioneiros se tratando de alojamento. Esse fato
+        proporciona grandes avanços para a busca de vida extraterrestre, já que
+        se os tardígrados podem viver no espaço, por que outros seres não
+        poderiam?
+      </p>
+      <p>
+        As características biológicas desses seres lhes renderam grande
+        visibilidade por parte dos cientistas, que os estudam buscando maneiras
+        de, por exemplo, criar um tecido termossensível para bombeiros e usá-los
+        em missões espaciais, o que já foi feito no ônibus espacial Endeavour.
+      </p>
+      <article>
+        <section>
+          <h2>Curiosidade:</h2>
+          <p>
+            Esses animais são tão carismáticos que até ganharam uma partcipação
+            especial em um filme da Marvel Estúdios: Homem-Formiga (2015). Um
+            tardídrado aparece quando o protagonista está na luta final contra o
+            vilão e acaba encolhendo sem controle
+          </p>
+        </section>
+        <img src="IMGS/Reprodução.webp" alt="" width="300px" />
+      </article>
+      <hr />
+      <h1>UTU</h1>
+      <p>
+        A UTU, União dos Tardígrados Únidos, é parte de um trabalho acadêmico do
+        curos de desenvolvimento de sistemas do Instituto de Ciência e
+        Tecnologia de São Paulo, não temos nem vinculo financeiro nem
+        empregatício com a escola. A UTU é um projeto de divulgação científica
+        que busca trazer o interesse dos leitores e ouvintes para biologia,
+        então se você gostou do texto ou de algum de nossos conteúdos
+        compartilhe com seus amigos e dê uma força. Por não termos orçamento, o
+        blog não possui muito alcance ou recursos, tanto que ainda estamos
+        desenvolvendo uma rede de whatsapp e facebook para contato, mas o leitor que tiver sujestões pode entrar em contato com o telefone no rodapé da página.
+      </p>
+      <hr />
+    </section>
+
+    <footer>
+      <div id="tops">
+        <div>
+          <h1>UTU</h1>
+          <p>
+            A União dos Tardígrados Unidos é uma intituição fictícia criada com
+            objetivo de estudar os tardígrados e seus usos para o benefício da
+            humanidade
+          </p>
+        </div>
+        <div>
+          <h1>Contato</h1>
+          <p>
+            Ainda estamos trabalhando nisso, mas provavelmente logo
+            adicionaremos nossas redes sociais
+          </p>
+        </div>
+        <div>
+          <h1>Junte-se a Nós</h1>
+          <p>
+            Caso queira participar da iniciativa entre em contato através do
+            telefone ficcional: (11) 9999-87513
+          </p>
+        </div>
+      </div>
+      <div id="bt">
+        <button onclick="scrollToTop()">Voltar</button>
+      </div>
+    </footer>
+    <script>
+      const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+    </script>
+    <!-- START Widget WhastApp hospedagemwordpresspro -->
+    <a
+      href="https://api.whatsapp.com/send?phone=5511999987513&text="
+      id="waurlsite"
+      class="bt-whatsApp"
+      target="_blank"
+      style="
+        right: 25px;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        z-index: 100;
+      "
+    >
+    </a>
+
+    <!-- END Widget WhastApp -->
+  </body>
+</html>
