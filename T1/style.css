@@ -159,10 +159,13 @@ article{
     border-top: 5px ridge;
     border-color: green;
     display: flex;
-    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 10px;
     
    
 }
@@ -172,8 +175,24 @@ article section{
 article p{
     font-size: medium;
     width: 100%;
-    margin-right: 15px;
+    margin-right: 25px;
+}
+article ul{
+    font-size: medium;
+    margin-right: 25px;
 }
 article h2{
     justify-self: flex-start;
+}
+ul{
+    align-self: flex-start;
+}
+#Site{
+    flex-direction: column;
+    padding-left: 180px;
+    padding-right: 180px;
+    border-color: blue ;
+}
+#Site h1{
+    align-self: center;
 }
