@@ -77,14 +77,21 @@ footer{
     width: 75%;
     justify-content: space-between;
 }
-
+#bb:hover{
+  border: 5px blue ridge;    
+  border-radius: 32%;
+  align-self: center;
+}
 #tops div{
-    width: 35%;
+    width: 25%;
     font-size: small;
     padding: 10px;
 
 }
-
+#UTU{
+    padding: 8px;
+    
+}
 #bt{
     align-self: flex-end;
     padding-left: 20%;
